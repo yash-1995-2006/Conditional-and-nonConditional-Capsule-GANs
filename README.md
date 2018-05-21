@@ -5,7 +5,7 @@ This paper proposes GAN architectures for incorporating Capsule networks for con
 ### Discriminative Capsule GAN
 The following diagram shows the architecture for the Discriminative Capsule GAN that is used for non-conditional image synthesis.
 
-![CapsGANArch](Images/CapsGANArch.png?raw=true "Discriminative Capsule GAN Architecture")<!-- .element height="50%" width="50%" -->
+![CapsGANArch](Images/CapsGAN.png?raw=true "Discriminative Capsule GAN Architecture")<!-- .element height="50%" width="50%" -->
 
 The discriminator has been substituted with a Capsule Network in place of a CNN. Also, the loss uses marginal losses described in the paper, "Dynamic Routing Between Capsules" by Sabour et al[1], for Capsule Networks to build a function analogous to the Wasserstein Loss, allowing the architecture to benefit from stable training and faster convergence of critic to optimality. 
 
