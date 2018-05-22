@@ -37,11 +37,17 @@ Go to  `/Discriminative Capsule GAN/` and run,
 ```
 python DiscriminativeCapsGAN.py
 ```
+Conditional Improved Wasserstein DCGAN
+Go to  `/Conditional Improved WDCGAN/` and run,
+```
+python ConditionalImprovedWDCGAN.py
+```
 Split-Auxiliary Capsule GAN:
 Go to  `/Condtional Capsule GAN/` and run,
 ```
 python ConditionalCapsGAN.py
 ```
+
 ## Results
 ### Non-Conditional Models
 #### Improved Wassersteain GAN
